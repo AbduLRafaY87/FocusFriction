@@ -6,7 +6,15 @@
     "orientation": "portrait",
     "userInterfaceStyle": "light",
     "scheme": "focusfriction",
-    "ios": { "supportsTablet": true, "bundleIdentifier": "com.focusfriction.cs" },
-    "android": { "package": "com.focusfriction.cs" }
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.focusfriction.cs"
+    },
+    "android": {
+      "package": "com.focusfriction.cs"
+    },
+    "plugins": [
+      "expo-status-bar"
+    ]
   }
 }
