@@ -1,0 +1,12 @@
+{
+  "expo": {
+    "name": "FocusFriction CS",
+    "slug": "focusfriction-cs",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "scheme": "focusfriction",
+    "ios": { "supportsTablet": true, "bundleIdentifier": "com.focusfriction.cs" },
+    "android": { "package": "com.focusfriction.cs" }
+  }
+}
