@@ -29,6 +29,12 @@
           "motionPermission": "FocusFriction counts your steps for the walking pause. Step data never leaves your phone."
         }
       ]
-    ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "d5f55b93-8d76-4304-9bf2-a356bcec7276"
+      }
+    },
+    "owner": "muhammadzayan19"
   }
 }
