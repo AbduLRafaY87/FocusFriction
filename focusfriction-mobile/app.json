@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "FocusFriction CS",
+    "slug": "focusfriction-cs",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "scheme": "focusfriction",
+    "icon": "./assets/focusfriction-icon.png",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.focusfriction.cs"
+    },
+    "android": {
+      "package": "com.focusfriction.cs",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/focusfriction-icon.png",
+        "backgroundColor": "#0F172A"
+      },
+      "permissions": [
+        "android.permission.ACTIVITY_RECOGNITION"
+      ]
+    },
+    "plugins": [
+      "expo-status-bar",
+      [
+        "expo-sensors",
+        {
+          "motionPermission": "FocusFriction counts your steps for the walking pause. Step data never leaves your phone."
+        }
+      ]
+    ]
+  }
+}
