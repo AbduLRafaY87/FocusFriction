@@ -1,33 +1,65 @@
 # FocusFriction
 
-This is a [Next.js](https://nextjs.org) project bootstrapped with [v0](https://v0.app).
+FocusFriction is a student-focused productivity and wellbeing app designed to reduce distraction, make study sessions feel less draining, and support healthier decision-making during demanding coursework.
 
-## Built with v0
+It combines a calm dashboard, friction-based interruption tools, task decomposition, bedtime routines, and accessible support pathways to help students protect focus without shame or overstimulation.
 
-This repository is linked to a [v0](https://v0.app) project. You can continue developing by visiting the link below -- start new chats to make changes, and v0 will push commits directly to this repo. Every merge to `main` will automatically deploy.
+## What is in this repo?
 
-[Continue working on v0 →](https://v0.app/chat/projects/prj_Vb85nyape7mJDrQHt6KUKkqOgllD)
+This repository contains multiple app variants of the same concept:
 
-## Getting Started
+- `app/` + `components/` — the Next.js web dashboard
+- `mobile/` and `focusfriction-mobile/` — React Native / Expo mobile experiences
+- `src/` — shared app logic, screens, and state for the mobile implementation
 
-First, run the development server:
+## Core experience
+
+- Dashboard Hub — daily rhythm, energy snapshot, and progress overview
+- Friction Locker — short reflective or logic-based pauses before impulsive actions
+- Task Deconstructor — breaking large assignments into smaller next steps
+- Bedtime Shield — wind-down routines and digital boundaries for recovery
+- Human Support — a direct support flow for students who need a gentle reset
+
+## Tech stack
+
+- Next.js
+- React
+- TypeScript
+- Tailwind CSS
+- React Native / Expo for the mobile app
+
+## Getting started
+
+Install dependencies:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
+pnpm install
+```
+
+Run the web app:
+
+```bash
 pnpm dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Then open http://localhost:3000 in your browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Project structure
 
-## Learn More
+```text
+.
+├── app/                  # Next.js app shell and pages
+├── components/           # Web UI components
+├── mobile/               # Expo mobile app
+├── focusfriction-mobile/  # alternate mobile app variant
+├── src/                  # shared mobile app code
+├── public/               # static assets
+├── package.json          # web app dependencies and scripts
+├── next.config.mjs       # Next.js config
+├── tsconfig.json         # TypeScript config
+└── README.md             # project overview
+```
 
-To learn more, take a look at the following resources:
+## Notes
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-- [v0 Documentation](https://v0.app/docs) - learn about v0 and how to use it.
+The repo is structured around a student wellness concept rather than a single framework-specific app. Use the web app for UI exploration and the mobile app folders for the app experiences built for handheld use.
